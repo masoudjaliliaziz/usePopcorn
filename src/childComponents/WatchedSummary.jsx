@@ -7,7 +7,7 @@ function WatchedSummary({ watched }) {
   const avgRuntime = average(watched.map((movie) => movie.runtime));
 
   return (
-    <div className="summary">
+    <div className="summary scrollbar-hide">
       <h2>Movies you watched</h2>
       <div>
         <p>

@@ -3,7 +3,7 @@ import WatchedMovie from "./WatchedMovie";
 
 function WatchedMovieList({ watched, onDeleteWatced }) {
   return (
-    <ul className="list">
+    <ul className="list scrollbar-hide">
       {watched.map((movie) => (
         <WatchedMovie
           key={movie.imdbID}
