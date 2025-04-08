@@ -83,7 +83,7 @@ function MovieDetails({ selctedMovie, onHandleBack, KEY, onAdd, watched }) {
   // );
 
   return (
-    <div className="details">
+    <div className="details scrollbar-hide">
       {isLoaded ? (
         <Loader />
       ) : (
